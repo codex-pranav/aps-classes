@@ -30,13 +30,14 @@ nav a {
   text-align: center;
   background: white;
   color: black
-  
 }
+
 .hero h1 {
   color: black;
 }
-.hero p{
- color: black;
+
+.hero p {
+  color: black;
 }
 
 .hero button {
@@ -68,4 +69,33 @@ footer {
   background: #25d366;
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
 }
