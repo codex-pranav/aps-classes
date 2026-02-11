@@ -5,15 +5,17 @@ body {
 }
 
 header {
-  background: #2c4050;
-  color: white;
+  background: #ffffff;
+  /* color: white; */
   text-align: center;
-  padding: 20px;
+  padding: 0px;
 }
 
 .logo {
-  width: 80px;
-  margin-bottom: 10px;
+  width: 500px;
+  height: auto;
+  /* display: block; */
+  margin-bottom: 0px;
 }
 
 nav a {
@@ -24,9 +26,17 @@ nav a {
 }
 
 .hero {
-  padding: 40px;
+  padding: 60px 20px;
   text-align: center;
-  background: #f1f5f9;
+  background: white;
+  color: black
+  
+}
+.hero h1 {
+  color: black;
+}
+.hero p{
+ color: black;
 }
 
 .hero button {
