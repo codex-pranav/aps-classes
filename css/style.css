@@ -56,20 +56,34 @@ nav a {
   background: #f8fafc;
 }
 
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #e5e7eb;
+.footer {
+    background: #f8fafc;
+    color: #1f2937;
+    text-align: center;
+    padding: 30px 20px;
 }
 
-.whatsapp {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 15px;
-  background: #25d366;
-  color: white;
-  text-decoration: none;
+.social-links {
+    margin: 15px 0;
 }
+
+.social-links a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 35px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
 
 @media (max-width: 768px) {
 
