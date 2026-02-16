@@ -57,29 +57,39 @@ nav a {
 }
 
 .footer {
-    background: #f8fafc;
-    color: #1f2937;
-    text-align: center;
-    padding: 30px 20px;
+  background: #f8fafc;
+  color: #1f2937;
+  text-align: center;
+  padding: 30px 20px;
 }
 
 .social-links {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .social-links a {
-    margin: 0 15px;
-    display: inline-block;
+  margin: 0 15px;
+  display: inline-block;
 }
 
 .social-links img {
-    width: 35px;
-    transition: transform 0.3s ease;
+  width: 35px;
+  transition: transform 0.3s ease;
 }
 
 .social-links img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
+
+.enroll-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 
 
 
