@@ -20,11 +20,10 @@ padding:0 20px;
 
 header{
 background:white;
-position:sticky;
-top:0;
-z-index:1000;
 border-bottom:3px solid #1e3a8a;
 }
+
+/* NAVBAR */
 
 .navbar{
 display:flex;
@@ -37,11 +36,17 @@ padding:15px 0;
 width:120px;
 }
 
+nav{
+display:flex;
+align-items:center;
+}
+
 nav a{
-margin-left:20px;
+margin-left:25px;
 text-decoration:none;
 color:#1e293b;
 font-weight:500;
+font-size:16px;
 }
 
 nav a:hover{
@@ -85,9 +90,9 @@ border-bottom:2px solid #1e3a8a;
 
 .badge-box{
 display:flex;
-justify-content:space-around;
+justify-content:center;
 flex-wrap:wrap;
-gap:10px;
+gap:15px;
 }
 
 .badge-box span{
@@ -147,7 +152,7 @@ font-size:40px;
 color:#facc15;
 }
 
-/* SOCIAL STRIP */
+/* SOCIAL */
 
 .social-strip{
 background:white;
@@ -213,13 +218,6 @@ margin-bottom:30px;
 color:#e5e7eb;
 }
 
-.cta .enroll-btn.white{
-display:inline-block;
-margin-top:10px;
-}
-
-
-
 .white{
 background:#facc15;
 color:#1e293b;
@@ -234,16 +232,30 @@ text-align:center;
 padding:30px 0;
 }
 
-/* MOBILE */
+/* MOBILE FIX */
 
 @media(max-width:768px){
+
 .navbar{
 flex-direction:column;
+gap:10px;
 }
+
+.logo{
+width:100px;
+}
+
 nav{
-margin-top:10px;
+flex-wrap:wrap;
+justify-content:center;
 }
+
+nav a{
+margin:5px 10px;
+}
+
 .hero h1{
 font-size:30px;
 }
+
 }
